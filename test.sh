@@ -1,6 +1,6 @@
 #!/bin/bash
 a="./a.exe"
-g++ *.cpp -O3 -o $a
+gcc *.c -O3 -o $a
 in="in.txt"
 out="out.txt"
 

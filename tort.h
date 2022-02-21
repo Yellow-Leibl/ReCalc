@@ -37,15 +37,14 @@ _$$$$$$$$$$$$$________$$$$$$$$$$$$$_
 _____$$$$$$$$$$$____$$$$$$$$$$$_____
 _________$$$$$$$$$$$$$$$$$$_______*/
 
-#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
 
 #define LNGP (1024)
 #define LNGb (64)
 
-using namespace std;
-
-extern double Calc(const char * exp);
+extern double Calculate(const char * exp);
 extern int isHelp(const char * s);
 extern int keycmp(const char * arg, const char * key);
